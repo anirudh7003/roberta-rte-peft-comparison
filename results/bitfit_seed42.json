@@ -1,0 +1,31 @@
+{
+  "method": "bitfit",
+  "seed": 42,
+  "best_validation": {
+    "accuracy": 0.7292418772563177,
+    "loss": 0.5881580164931741,
+    "epoch": 6
+  },
+  "trainable_parameters": 694274,
+  "total_parameters": 124647170,
+  "trainable_percent": 0.5569913861662483,
+  "elapsed_seconds": 4556.545092100045,
+  "device": "cpu",
+  "config": {
+    "model_name": "roberta-base",
+    "max_length": 256,
+    "epochs": 10,
+    "train_batch_size": 4,
+    "eval_batch_size": 8,
+    "gradient_accumulation_steps": 4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "adapter_dim": 32,
+    "adapter_dropout": 0.1,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "learning_rate": 0.001
+  },
+  "artifact_dir": "outputs\\roberta-base-rte-bitfit-seed42"
+}

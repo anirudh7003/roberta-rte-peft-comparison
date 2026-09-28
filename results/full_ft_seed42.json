@@ -1,0 +1,31 @@
+{
+  "method": "full_ft",
+  "seed": 42,
+  "best_validation": {
+    "accuracy": 0.7725631768953068,
+    "loss": 1.3191203747032083,
+    "epoch": 7
+  },
+  "trainable_parameters": 124647170,
+  "total_parameters": 124647170,
+  "trainable_percent": 100.0,
+  "elapsed_seconds": 7369.7644936,
+  "device": "cpu",
+  "config": {
+    "model_name": "roberta-base",
+    "max_length": 256,
+    "epochs": 10,
+    "train_batch_size": 4,
+    "eval_batch_size": 8,
+    "gradient_accumulation_steps": 4,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "adapter_dim": 32,
+    "adapter_dropout": 0.1,
+    "lora_rank": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.1,
+    "learning_rate": 2e-05
+  },
+  "artifact_dir": "outputs\\roberta-base-rte-full_ft-seed42"
+}

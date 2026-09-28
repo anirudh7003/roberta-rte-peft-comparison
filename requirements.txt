@@ -1,0 +1,9 @@
+# Install these inside a Python 3.12 virtual environment on Windows.
+torch>=2.6
+transformers>=4.48,<6
+datasets>=3.2
+peft>=0.14
+huggingface_hub>=0.28
+numpy>=1.26
+tqdm>=4.67
+
